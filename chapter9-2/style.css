@@ -7,6 +7,18 @@
 header {
   height: 50px;
   background-color: #ff9a4b;
+  position: relative;
+}
+
+.social i {
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.social {
+  position: absolute;
+  top: 50px;
 }
 
 main {
@@ -63,4 +75,36 @@ main {
 footer {
   height: 50px;
   background-color: #aaa;
+}
+
+@media screen and (max-width:768px) {
+  header {
+    height: 50px;
+  }
+  
+  main {
+    width: 100%;
+    margin: 50px auto;
+  }
+  
+  .step-box {
+    width: 90%;
+    margin-top: 20px;
+  }
+  
+  .step-img1 {
+    height: 150px;
+  }
+  
+  .step-img2 {
+    height: 150px;
+  }
+  
+  .step-img3 {
+    height: 150px;
+  }
+  
+  footer {
+    height: 50px;
+  }
 }
