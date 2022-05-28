@@ -84,7 +84,9 @@ footer {
   
   main {
     width: 100%;
-    margin: 50px auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: block;
   }
   
   .step-box {
